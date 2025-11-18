@@ -11,7 +11,10 @@ botao2.addEventListener("click", function() {
 
 const lutador = document.getElementById("lutador");
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b77307405a90197b01a798ffe9685ab7e1fdb81e
 const imagemOriginal = "Bruce_Irvin_TTT2-400x361.webp";
 const imagemNova = "Sagat.webp";
 
