@@ -6,16 +6,28 @@
   box-sizing: border-box;
 }
 
+
 header {
   height: 10vh;
   width: 100vw;
   background-color: #f9f9f9;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   text-align: center;
   display: flex;
   font-family: "Poppins", sans-serif;
   gap: 32px;
+}
+
+#mma{
+  height: 80px;
+  width: auto;
+   transition: transform 0.3s ease; 
+  cursor: pointer;
+}
+
+#mma:hover {
+  transform: scale(1.1); 
 }
 
 #botao1 {
@@ -47,14 +59,13 @@ header {
   box-shadow: 0 5px 15px rgba(0,0,0,0.3); 
 }
 
-
 ul{
     display: flex;
     gap: 15px;
     list-style: none;
  }
 
-/*main*/
+
 main {
   height: 80vh;
   width: 100vw;
@@ -94,7 +105,6 @@ h1 {
 #lutador:hover {
   transform: scale(1.1); 
 }
-
 
 #baixo {
   height: 40vh;
